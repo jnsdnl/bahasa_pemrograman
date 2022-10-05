@@ -4,6 +4,9 @@
 alva=12
 print (alva)
 print (type(alva))
+a= b"12"
+print(a)
+print (type(a))
 
 #type data float
 bepa=12.5
