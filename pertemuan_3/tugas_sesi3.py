@@ -2,7 +2,8 @@ a=20210801347
 b="junius daniel"
 
 c="sample operator in python"
-print(a,b)
+print(a)
+print(b)
 print(c)
 nilai1=int(input("nilai 1 = "))
 nilai2=int(input("nilai 2 = "))
