@@ -1,6 +1,6 @@
 print("============")
 print("PROGRAM QUIZ")
-print("============")
+print("===============")
 
-str(input("Masukkan Nama : "))
-int(input("Masukkan NIM : "))
+str(input("masukkan nama : "))
+int(input("masukkan nim : "))

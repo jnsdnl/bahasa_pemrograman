@@ -1,23 +1,42 @@
-def penjumlahan():
+def jualan():
+    a = "capucino"
+    b = "teh"
+    print ("Pilihan")
+    print ("1.", a)
+    print ("2.", b)
+    print ("3. Exit")
 
-    a=int(input("NIM"))
-    b=str(input("NAMA"))
-    print (a)
-    print (b)
+def capucino():
+    cap = "memilih capucino"
+    print(cap)
+    capucino = int(input("masukkan harga : "))
+    ppn = 10/100
+    total = capucino + (capucino*ppn)
+    print("Jumlah yang harus di bayarkan : ", total)
 
-    c=int(input("masukkan angka pertama : "))
-    d=int(input("masukkan angka kedua : "))
-    e=c+d
-    print("Total Penjumlahan", e)
+def teh():
+    teh = "memilih teh"
+    print(teh)
+    teh = int(input("masukkan harga : "))
+    ppn = 10/100
+    total = teh + (teh*ppn)
+    print("Jumlah yang harus di bayarkan : ", total)
+
+def Customer():
+    nim = 20210801347
+    nama = "Junius Daniel"
+    print ("NIM : ", nim)
+    print ("NAMA : ", nama)
 
 while True:
-    print("MENU")
-    print("1. Penjumalahan")
-    print("2.  Exit")
-    choice = int(input("pilihanmu : "))
-    if choice == 1:
-        penjumlahan()
-    elif choice == 2:
+    Customer()
+    jualan()
+    pil = int(input("masukkan pilihan : "))
+    if pil == 1:
+        capucino()
+    elif pil == 2:
+        teh()
+    elif pil == 3:
         break
     else:
-        print("pilihan salah")
+        print ("pilihan salah")

@@ -1,5 +1,5 @@
-listCity = ['Kalimantan', 'Sumatra', 'Sulawesi']
-listPlace = ['West', 'North', 'South']
-for city in listCity:
-    for place in listPlace:
-        print(city, place)
+NamaDaerah = ['Kalimantan', 'Sumatra', 'Sulawesi']
+NamaKota = ['West', 'North', 'South']
+for Daerah in NamaDaerah:
+    for Kota in NamaKota:
+        print(Daerah, Kota)

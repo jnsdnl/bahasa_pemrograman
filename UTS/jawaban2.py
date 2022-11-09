@@ -1,11 +1,6 @@
-def input_alas_dan_tinggi ():
-  alas = float(input('Masukkan alas: '))
-  tinggi = float((input('Masukkan tinggi: ')))
+alas = float(input("Masukan Alas :"))
+tinggi = float (input("Masukan Tinggi :"))
 
-  return alas, tinggi
+luas = alas * tinggi /2
 
-def hitung_luas (alas, tinggi):
-  return 0.5 * alas * tinggi
-
-alas, tinggi = input_alas_dan_tinggi()
-print(hitung_luas(alas, tinggi))
+print (luas)
